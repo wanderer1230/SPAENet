@@ -13,11 +13,10 @@ Python >= 3.6
 PyTorch >= 1.1
 
 
-l
 ```
 
 ### Prepare Datasets
-Download the person datasets DukeMTMC-reID, Market-1501, MSMT17, and the vehicle datasets VeRi-776. Then put them under a folder such as '/folder/to/dataset/'.
+Download the person datasets DukeMTMC-reID, Market-1501 and MSMT17. Then put them under a folder such as '/folder/to/dataset/'.
 
 
 ## Training
@@ -30,8 +29,6 @@ CUDA_VISIBLE_DEVICES=0 python train.py --data_dir '/folder/to/dataset/' --datase
 ```
 
 
-## Result
-<img src="figs/result.png" style="zoom:45%;" />
 
 ## Citation
 Our code is referenced o2cap
